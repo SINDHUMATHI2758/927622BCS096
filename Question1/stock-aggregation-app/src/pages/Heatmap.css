@@ -1,0 +1,19 @@
+.heatmap-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-auto-rows: 60px;
+    gap: 1px;
+    justify-content: center;
+  }
+  
+  .heatmap-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #bbb;
+    font-size: 14px;
+    color: #000;
+    transition: all 0.2s ease;
+    cursor: default;
+  }
+  
